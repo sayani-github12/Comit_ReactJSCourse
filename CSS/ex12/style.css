@@ -1,0 +1,24 @@
+
+  
+    div li:nth-child(2):hover{
+        background:red;
+        color:white;
+    }
+    div li:first-child{
+        font-size:32px;
+    }
+    div li:nth-child(3n){
+       
+        color:green;
+    }
+    div li:nth-child(3n):hover{
+       
+      text-transform: uppercase;
+  }
+
+    div li:last-child:hover{
+        
+        text-transform: uppercase;
+    }
+
+    

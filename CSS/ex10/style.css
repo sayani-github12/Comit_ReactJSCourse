@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+
+}
+/***
+Div css
+
+**/
+.first{
+   
+   
+text-align: right;
+    
+}
+/***
+1st div style
+
+*****/
+.first-p{
+
+    font-style: italic;
+}
+.first-p2{
+
+   background: blue;
+color: rgb(255, 255, 255);
+}
+
+
+span.a {
+    font-size: 24px;
+   
+  }
+
+  /***
+2nd div style
+
+*****/
+  .second-p{
+
+background:#338BFF;
+
+  }
+  .second-p2{
+
+    text-transform: uppercase;
+}
+  .second-p3{
+    text-transform: capitalize;
+    
+
+  }
+  
