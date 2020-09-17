@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+<body>
+  <h1>Create User</h1>
+  <hr>
+  
+<form action="create-user.html" method="get">
+    <label for="email">Email:</label>
+    <input type="email" name="email"  placeholder="email"/></br>
+    <label for="user_name">Username:</label>
+    <input type="text" name="user_name" size="30" maxlength="12" placeholder="username"/></br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" size="30" maxlength="8" placeholder="password"/></br>
+    
+    <label for="bio">Bio:</label></br>
+    <textarea name="bio" placeholder="give a brief description of this user"></textarea>
+    
+        <fieldset>
+          <legend>Interest</legend>
+          <label>Select your favourite superhero</label>
+          <input type="radio" name="superhero" value="Superman" /> Superman
+          <input type="radio" name="superhero"  value="Batman"  /> Batman
+          <input type="radio" name="superhero"  value="Wonder Woman"  checked/> Wonder Woman
+          <input type="radio" name="superhero"  value="Flash"  /> Flash
+          <input type="radio" name="superhero"  value="Thor"  /> Thor
+          <input type="radio" name="superhero" value="Hulk"  /> Hulk </br>
+          <lebel>Select your favourite video game</lebel>
+          <input type="checkbox" name="game" value="Fifa" checked/>Fifa
+          <input type="checkbox" name="game" value="NHL" />NHL
+          <input type="checkbox" name="game" value="Resident Evil" />Resident Evil
+          <input type="checkbox" name="game" value="Uncharted" />Uncharted
+        </fieldset>   
+        <input type="hidden" name="userid" value="2300">
+        <input type="submit" value="Create User !" />
+</form>
+
+
+</body>
+</html>
