@@ -1,0 +1,38 @@
+header{
+
+    text-align: center;
+
+}
+
+nav {
+margin-bottom: 20px;
+
+
+}
+.nav_class{
+    font-size: larger;
+   
+}
+.nav_class a{
+
+    color:red;
+}
+
+.nav_class a:hover{
+
+    color:#00aced
+}
+article{
+
+    font-size: 18px;
+}
+main{
+
+    margin: 0 10px 0 10px;
+}
+
+
+main article:nth-child(n){
+    margin-bottom: 20px;   
+   
+}
