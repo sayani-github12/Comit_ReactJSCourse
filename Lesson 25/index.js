@@ -4,7 +4,7 @@
 
 
 let weekdayNumber=prompt("Enter Days.....");
-if(weekdayNumber=>1& weekdayNumber<=7){
+
     switch(weekdayNumber){
         case '1':
 
@@ -45,9 +45,7 @@ if(weekdayNumber=>1& weekdayNumber<=7){
             alert("Today is Sunday");
         
             break;
-          
+            default: 
+console.log("Number is not correct")
         }
         
-     console.log("Number is not bwtween 1 to 7")   
-
-}
